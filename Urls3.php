@@ -114,24 +114,4 @@ echo 'IST: '.beschnittDerUrl($url);
 
 
 
-
-class UrlShortener {
-    protected $url = '';
-
-    public function start($url) {
-        $this->url = $url;
-        $this->beschnittDerUrl();
-
-    }
-
-    private function beschnittDerUrl() {
-        $this->url;
-    }
-}
-
-$urlShortener = new UrlShortener();
-echo $urlShortener->start($url);
-$urlShortener->beschnittDerUrl()
-
-
 ?>
